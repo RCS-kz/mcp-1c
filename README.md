@@ -26,11 +26,21 @@ Full docs: [npmjs.com/package/@rcs-kz/mcp-1c](https://www.npmjs.com/package/@rcs
 
 | Tier | Price | What you get |
 |---|---|---|
-| Solo | **$0/forever** | 10 calls/day, read-only (4 tools), personal use |
-| Pro | $20/month | Unlimited, write enabled, 1 database, 24h support |
-| Team | $80/month | 5 databases, custom tools, 4h SLA |
+| **Solo** | **0 ₸ / forever** | 10 calls/day · read-only (4 tools) · personal use |
+| **Pro** | **9 900 ₸/mo** (~$19) | Unlimited · write enabled (7 tools) · 1 database · 24h support · commercial use |
+| **Team** | **39 900 ₸/mo** (~$74) | 5 databases · custom tools · 4h SLA · priority support |
 
-[Start 14-day Pro trial →](https://rcs-kz.lemonsqueezy.com)
+**🛒 Direct checkout (Pro or Team):** [rcs-kz.lemonsqueezy.com/checkout/buy/6e652305...](https://rcs-kz.lemonsqueezy.com/checkout/buy/6e652305-fccf-47b3-b38f-922fdcc83cd9)
+
+**🆓 Free Solo activation (5 seconds, no credit card):**
+
+```bash
+curl -X POST https://bitrix24-mcp-license.shahruh.workers.dev/freemium \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@company.com","product":"mcp-1c"}'
+```
+
+14-day Pro trial included automatically with checkout — no commitment.
 
 ---
 
