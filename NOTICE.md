@@ -46,5 +46,5 @@ Sharing license-check bypasses or distributing patched binaries violates the lic
 
 ## Maintainer
 
-RCS · Almaty, Kazakhstan
+RCS (IP KVANT, IIN 871228350772) · Astana, Kazakhstan
 licenses@rcs.kz

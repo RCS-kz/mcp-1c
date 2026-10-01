@@ -1,6 +1,6 @@
 # @rcs-kz/mcp-1c — License
 
-Copyright © 2026 RCS · licenses@rcs.kz · Almaty, Kazakhstan
+Copyright © 2026 RCS (IP KVANT, IIN 871228350772) · licenses@rcs.kz · Astana, Kazakhstan
 
 ## Solo Tier (Free)
 

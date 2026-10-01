@@ -16,7 +16,7 @@ curl -X POST https://bitrix24-mcp-license.shahruh.workers.dev/freemium \
   -d '{"email":"you@company.com","product":"mcp-1c"}'
 ```
 
-**Add to Claude Desktop config**, install [MCPService.cfe](releases/latest) into your 1С database — and you're set.
+**Add to Claude Desktop config**, install [MCPService.cfe](https://github.com/RCS-kz/mcp-1c/releases/latest) into your 1С database — and you're set.
 
 Full docs: [npmjs.com/package/@rcs-kz/mcp-1c](https://www.npmjs.com/package/@rcs-kz/mcp-1c)
 
@@ -27,10 +27,10 @@ Full docs: [npmjs.com/package/@rcs-kz/mcp-1c](https://www.npmjs.com/package/@rcs
 | Tier | Price | What you get |
 |---|---|---|
 | **Solo** | **0 ₸ / forever** | 10 calls/day · read-only (4 tools) · personal use |
-| **Pro** | **9 900 ₸/mo** (~$19) | Unlimited · write enabled (7 tools) · 1 database · 24h support · commercial use |
-| **Team** | **39 900 ₸/mo** (~$74) | 5 databases · custom tools · 4h SLA · priority support |
+| **Pro** | **9 900 ₸/mo** | Unlimited · write enabled (7 tools) · 1 database · 24h support · commercial use |
+| **Team** | **39 900 ₸/mo** | 5 databases · custom tools · 4h SLA · priority support |
 
-**🛒 Direct checkout (Pro or Team):** [rcs-kz.lemonsqueezy.com/checkout/buy/6e652305...](https://rcs-kz.lemonsqueezy.com/checkout/buy/6e652305-fccf-47b3-b38f-922fdcc83cd9)
+**Pro or Team:** [request on rcs.kz](https://rcs.kz/request-promo?utm_source=github&utm_medium=readme&utm_campaign=mcp-1c) — monthly billing under contract. Details: [rcs.kz/product/mcp-1c](https://rcs.kz/product/mcp-1c)
 
 **🆓 Free Solo activation (5 seconds, no credit card):**
 
@@ -40,7 +40,6 @@ curl -X POST https://bitrix24-mcp-license.shahruh.workers.dev/freemium \
   -d '{"email":"you@company.com","product":"mcp-1c"}'
 ```
 
-14-day Pro trial included automatically with checkout — no commitment.
 
 ---
 
@@ -67,7 +66,7 @@ Use both together for full 1C+CRM AI workflows.
 
 ## Maintainer
 
-[RCS](https://rcs.kz) · Bitrix24 partner agency · Almaty, Kazakhstan
+[RCS](https://rcs.kz) (IP KVANT, IIN 871228350772) · 1C partner in Kazakhstan since 2009 · Astana, Kazakhstan
 
 ---
 
