@@ -2,13 +2,13 @@
 
 > **Production MCP server for 1C:Enterprise.** Connect Claude Desktop, Cursor, Cline, Continue to your 1С database — read invoices, contracts, partners; create documents; conduct postings — all through AI conversations.
 
-**Install (0.1.4):**
+**Install (0.1.5):**
 
 ```bash
-npm install -g https://github.com/RCS-kz/mcp-1c/releases/download/v0.1.4/rcs-kz-mcp-1c-0.1.4.tgz
+npm install -g https://github.com/RCS-kz/mcp-1c/releases/download/v0.1.5/rcs-kz-mcp-1c-0.1.5.tgz
 ```
 
-`npm install -g @rcs-kz/mcp-1c` still installs 0.1.0 from npm (Python 3.10 only) until 0.1.4 is published there.
+`npm install -g @rcs-kz/mcp-1c` still installs 0.1.0 from npm (Python 3.10 only) until 0.1.5 is published there.
 
 **Get free Solo license:**
 
@@ -18,7 +18,7 @@ curl -X POST https://bitrix24-mcp-license.shahruh.workers.dev/freemium \
   -d '{"email":"you@company.com","product":"mcp-1c"}'
 ```
 
-**Requires Python 3.10, 3.11, 3.12 or 3.13** on Linux (x86_64, ARM64), macOS (Intel, Apple Silicon) or Windows x86_64 — version 0.1.4.
+**Requires Python 3.10, 3.11, 3.12 or 3.13** on Linux (x86_64, ARM64), macOS (Intel, Apple Silicon) or Windows x86_64 — version 0.1.5.
 
 **Add to Claude Desktop config**, install [MCPService.cfe](https://github.com/RCS-kz/mcp-1c/releases/latest) into your 1С database — and you're set.
 
