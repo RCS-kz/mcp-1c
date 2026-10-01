@@ -16,6 +16,8 @@ curl -X POST https://bitrix24-mcp-license.shahruh.workers.dev/freemium \
   -d '{"email":"you@company.com","product":"mcp-1c"}'
 ```
 
+**Requires Python 3.10 exactly** (the protected runtime does not load on 3.9, 3.11, 3.12 or 3.13) and Linux x86_64, macOS (Intel / Apple Silicon) or Windows x86_64 — Linux ARM64 is not supported.
+
 **Add to Claude Desktop config**, install [MCPService.cfe](https://github.com/RCS-kz/mcp-1c/releases/latest) into your 1С database — and you're set.
 
 Full docs: [npmjs.com/package/@rcs-kz/mcp-1c](https://www.npmjs.com/package/@rcs-kz/mcp-1c)
