@@ -11,7 +11,6 @@ This npm package contains **PyArmor-obfuscated** Python code (`python-protected/
 The obfuscation includes:
 - Multi-platform native runtime (`pyarmor_runtime_000000/`)
 - Bytecode-level encryption (PyArmor v9)
-- Anti-debug guards
 - Online license check via Cloudflare Worker
 
 This protects the maintainer's intellectual property while allowing transparent license verification.
@@ -23,7 +22,7 @@ Python is interpreted — anyone with `cat` can read source. Without obfuscation
 - Pro/Team tools can be unlocked by removing license-check
 - Custom paid features can be cloned
 
-PyArmor obfuscation raises the bar from "5-second copy-paste" to "needs serious reverse-engineering effort". Combined with **online license verification** (Ed25519-signed JWT, server-side revocation), this provides commercially-viable IP protection.
+PyArmor obfuscation raises the bar from "5-second copy-paste" to "needs serious reverse-engineering effort". Combined with **online license verification** (server-side revocation), this raises the cost of copying the product.
 
 ## What you CAN audit
 

@@ -12,7 +12,7 @@ The free Solo tier of `@rcs-kz/mcp-1c` is granted to any person under the follow
 
 ## Pro/Team Tier (Commercial)
 
-Paid tiers (Pro $20/month, Team $80/month) are governed by a separate Service Agreement. Subscription is via Lemon Squeezy and includes:
+Paid tiers (Pro 9 900 ₸/month, Team 39 900 ₸/month) are governed by a separate Service Agreement, concluded on request via https://rcs.kz/product/mcp-1c, and include:
 
 - Unlimited API calls (Pro: 1 database, Team: up to 5)
 - Write tools: `execute_code`, `write_object`, `post_document`
@@ -21,7 +21,7 @@ Paid tiers (Pro $20/month, Team $80/month) are governed by a separate Service Ag
 
 ## Source Code
 
-The source code in this npm package is published for transparency, security audit, and educational purposes. The `python/server.py` file is readable so customers can verify what runs against their 1C database.
+The Node bootstrap `bin/mcp-1c.js` is readable so customers can verify how the server is launched. The Python server ships obfuscated (`python-protected/`, see NOTICE.md); the plain source is not distributed.
 
 This is **not an open-source license**. Source visibility ≠ permission to fork, redistribute, or sublicense.
 
