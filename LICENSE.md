@@ -2,13 +2,17 @@
 
 Copyright © 2026 RCS (IP KVANT, IIN 871228350772) · licenses@rcs.kz · Astana, Kazakhstan
 
-## Solo Tier (Free)
+Edition of 21 November 2026. Applies to license keys issued on or after this date.
 
-The free Solo tier of `@rcs-kz/mcp-1c` is granted to any person under the following terms:
+## Trial
 
-- **Permitted use:** personal exploration, learning, evaluation, non-commercial pet projects
-- **Limits:** 10 API calls/day per license key, 1 connected 1С database, read-only tools (`ping`, `execute_query`, `get_metadata`, `get_object`)
-- **Forbidden:** commercial use, redistribution, sublicensing, removal of license-check code
+A trial license key is issued on request via https://rcs.kz/product/mcp-1c for the period stated when the key is issued.
+
+- **Permitted use:** evaluation of the software on your own 1С databases
+- **Forbidden:** redistribution, sublicensing, removal or circumvention of license-check code
+- After the trial period the key stops working; continued use requires a Pro or Team subscription
+
+There is no free tier. Solo keys issued before 21 November 2026 remain valid until their stated expiry under the terms in force when they were issued.
 
 ## Pro/Team Tier (Commercial)
 
@@ -21,13 +25,13 @@ Paid tiers (Pro 14 900 ₸/month, Team 44 900 ₸/month) are governed by a separ
 
 ## Source Code
 
-The Node bootstrap `bin/mcp-1c.js` is readable so customers can verify how the server is launched. The Python server ships obfuscated (`python-protected/`, see NOTICE.md); the plain source is not distributed.
+The Node bootstrap `bin/mcp-1c.js` is readable so customers can verify how the server is launched. The Python server ships in compiled form (see NOTICE.md); the plain source is not distributed.
 
 This is **not an open-source license**. Source visibility ≠ permission to fork, redistribute, or sublicense.
 
 ## MCPService 1C Extension
 
-The companion `MCPService.cfe` 1С extension (downloadable from GitHub Releases) is provided **free of charge** under the same Solo Tier terms above. The extension itself is required to use any tier of this product.
+The companion `MCPService.cfe` 1С extension (downloadable from GitHub Releases) is provided **free of charge** for use together with a valid trial or paid license key of this product. The extension itself is required to use the product.
 
 ## Disclaimer
 
@@ -41,6 +45,14 @@ License keys may be revoked in case of:
 - Chargebacks or fraudulent payment activity
 
 Revoked keys return `status: "revoked"` from the verification endpoint, and the client immediately blocks subsequent tool calls.
+
+## Governing Law
+
+These terms are governed by the laws of the Republic of Kazakhstan. A written claim is required before going to court; the response period is 15 calendar days. Disputes that cannot be settled are resolved by the Specialized Inter-District Economic Court of Astana.
+
+## Changes to These Terms
+
+New editions are published in this repository. A new edition applies to keys issued after its publication; existing paid subscriptions move to it on renewal, and material changes are announced by email at least 30 days in advance.
 
 ## Contact
 

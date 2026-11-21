@@ -18,7 +18,6 @@ This protects the maintainer's intellectual property while allowing transparent 
 ## Why protect a Python package?
 
 Python is interpreted — anyone with `cat` can read source. Without obfuscation:
-- Solo (free) tier code is trivially extracted
 - Pro/Team tools can be unlocked by removing license-check
 - Custom paid features can be cloned
 
