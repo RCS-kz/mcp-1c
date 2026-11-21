@@ -12,7 +12,7 @@ The free Solo tier of `@rcs-kz/mcp-1c` is granted to any person under the follow
 
 ## Pro/Team Tier (Commercial)
 
-Paid tiers (Pro 9 900 ₸/month, Team 39 900 ₸/month) are governed by a separate Service Agreement, concluded on request via https://rcs.kz/product/mcp-1c, and include:
+Paid tiers (Pro 14 900 ₸/month, Team 44 900 ₸/month) are governed by a separate Service Agreement, concluded on request via https://rcs.kz/product/mcp-1c, and include:
 
 - Unlimited API calls (Pro: 1 database, Team: up to 5)
 - Write tools: `execute_code`, `write_object`, `post_document`
