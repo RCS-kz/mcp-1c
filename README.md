@@ -8,8 +8,9 @@
 
 ### Установка в 3 шага
 
-1. В базу 1С загрузите расширение `MCPService.cfe` ([релиз mcpservice-v0.6.1](https://github.com/RCS-kz/mcp-1c/releases/tag/mcpservice-v0.6.1)) и опубликуйте его HTTP-сервис (IIS или Apache).
-2. Поставьте сервер: `npm install -g https://github.com/RCS-kz/mcp-1c/releases/download/v0.2.0/rcs-kz-mcp-1c-0.2.0.tgz`
+1. В базу 1С загрузите расширение `MCPService.cfe` (0.6.2, [релиз v0.2.1](https://github.com/RCS-kz/mcp-1c/releases/tag/v0.2.1)) и опубликуйте его HTTP-сервис (IIS или Apache).
+2. Поставьте сервер: `npm install -g https://github.com/RCS-kz/mcp-1c/releases/download/v0.2.1/rcs-kz-mcp-1c-0.2.1.tgz`
+   Для Claude Desktop — пакет [`mcp-1c-0.2.1.mcpb`](https://github.com/RCS-kz/mcp-1c/releases/download/v0.2.1/mcp-1c-0.2.1.mcpb): открыть файл, указать адрес базы, пользователя и ключ.
 3. Подключите к клиенту (ниже) и задайте адрес базы, пользователя 1С и ключ лицензии.
 
 Нужны Node.js и Python 3.10–3.13. Платформы: Windows x64, Linux x86_64, macOS 11+ (Apple Silicon и Intel). Linux ARM64 не поддерживается.
@@ -103,8 +104,9 @@ RCS (ИП КВАНТ, Астана) — партнёр фирмы «1С» в К�
 
 ### Install in 3 steps
 
-1. Load the `MCPService.cfe` extension ([release mcpservice-v0.6.1](https://github.com/RCS-kz/mcp-1c/releases/tag/mcpservice-v0.6.1)) into your 1C database and publish its HTTP service (IIS or Apache).
-2. Install the server: `npm install -g https://github.com/RCS-kz/mcp-1c/releases/download/v0.2.0/rcs-kz-mcp-1c-0.2.0.tgz`
+1. Load the `MCPService.cfe` extension (0.6.2, [release v0.2.1](https://github.com/RCS-kz/mcp-1c/releases/tag/v0.2.1)) into your 1C database and publish its HTTP service (IIS or Apache).
+2. Install the server: `npm install -g https://github.com/RCS-kz/mcp-1c/releases/download/v0.2.1/rcs-kz-mcp-1c-0.2.1.tgz`
+   Claude Desktop: open [`mcp-1c-0.2.1.mcpb`](https://github.com/RCS-kz/mcp-1c/releases/download/v0.2.1/mcp-1c-0.2.1.mcpb) and enter the database URL, user and license key.
 3. Add it to your client (see above) with the base URL, the 1C user and your license key.
 
 Requires Node.js and Python 3.10–3.13. Platforms: Windows x64, Linux x86_64, macOS 11+ (Apple Silicon and Intel). Linux ARM64 is not supported. Trial key on request at [rcs.kz/product/mcp-1c](https://rcs.kz/product/mcp-1c).
